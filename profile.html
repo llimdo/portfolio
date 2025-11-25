@@ -287,6 +287,45 @@
         right: 0;
       }
     }
+
+    /* ===========================
+    모바일 겹침 방지 FIX
+   =========================== */
+    @media (max-width: 767px) {
+
+      .right-column {
+        position: relative;
+        margin-top: 40px;
+      }
+
+      /* 기존 absolute 메뉴를 모바일에서는 block으로 바꿈 */
+      .side-nav {
+        position: relative;
+        text-align: left;
+        margin-bottom: 20px;
+        top: auto;
+        right: auto;
+      }
+
+      .side-nav a {
+        font-size: 0.8rem;
+        letter-spacing: 0.1em;
+        margin-bottom: 6px;
+      }
+
+      /* big-season-title 아래 여백 늘림 */
+      .big-season-title {
+        margin-top: 20px;
+      }
+
+      /* 프로필 정보 모바일 최적화 */
+      .profile-info {
+        margin-top: 20px !important;
+        line-height: 1.9 !important;
+        font-size: 0.85rem !important;
+        word-break: keep-all;
+      }
+    }
   </style>
 </head>
 
