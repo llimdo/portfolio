@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>2023 Portfolio</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    .nav-buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px; /* 기존 40px → 80px */
+        gap: 10px;
+    }
+
+    .nav-buttons a {
+        flex: 1;
+        text-align: center;
+        padding: 12px 0;
+        background: #fff;
+        color: #000;
+        font-weight: 600;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: background .25s ease, transform .25s ease;
+    }
+
+    .nav-buttons a:hover {
+        background: #f0f0f0;
+        transform: translateY(-2px);
+    }
+
+    .top-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25px;
+        animation: topBarFadeUp 0.6s ease-out 0.1s both;
+    }
+
+    .list-btn {
+        padding: 10px 20px;
+        background: #fff;
+        color: #000;
+        border-radius: 8px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: background .25s ease, transform .25s ease;
+    }
+
+    .list-btn:hover {
+        background: #f0f0f0;
+        transform: translateY(-2px) scale(1.03);
+    }
+
+    body {
+      margin: 0;
+      background: #000;
+      color: #fff;
+      font-family: system-ui, sans-serif;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 10px 20px;
+      color: #000;
+      background: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    @keyframes topBarFadeUp {
+        0% {
+            opacity: 0;
+            transform: translateY(-12px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+    <div class="top-bar">
+        <h1>2023 Portfolio</h1>
+        <a href="index.html" class="list-btn">목록으로</a>
+    </div>
+
+    <div>
+      <img src="portfolio/2023_1.png">
+      <img src="portfolio/2023_2.png">
+      <img src="portfolio/2023_3.png">
+      <img src="portfolio/2023_4.png">
+      <img src="portfolio/2023_5.png">
+      <img src="portfolio/2023_6.png">
+      <img src="portfolio/2023_7.png">
+      <img src="portfolio/2023_8.png">
+      <img src="portfolio/2023_9.png">
+      <img src="portfolio/2023_10.png">
+      <img src="portfolio/2023_11.png">
+      <img src="portfolio/2023_12.png">
+      <img src="portfolio/2023_13.png">
+      <img src="portfolio/2023_14.png">
+      <img src="portfolio/2023_15.png">
+      <img src="portfolio/2023_16.png">
+      <img src="portfolio/2023_17.png">
+      <img src="portfolio/2023_18.png">
+      <img src="portfolio/2023_19.png">
+      <img src="portfolio/2023_20.png">
+      <img src="portfolio/2023_21.png">
+      <img src="portfolio/2023_22.png">
+      <img src="portfolio/2023_23.png">
+      <img src="portfolio/2023_24.png">
+
+      <!-- 이미지 계속 추가하면 됨 -->
+    </div>
+
+    <div class="nav-buttons">
+        <a href="2021.html">← 2021년 포트폴리오</a>
+        <a href="2024.html">2024년 포트폴리오 →</a>
+    </div>
+
+  </div>
+</body>
+</html>
